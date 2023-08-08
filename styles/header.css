@@ -1,0 +1,202 @@
+.header{
+    display: grid ;
+    grid-template-columns: 133px 1fr 194px ;
+    align-items: center ;
+    position: fixed ;
+    top: 0px ;
+    left: 0px ;
+    right: 0px ;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
+    height: 55.5px ;
+    padding-top: 0px ;
+    background-color: white ;
+    z-index: 200 ;
+}
+
+.logo-div{
+    padding-left: 20px ;
+    display: flex ;
+    align-items: center ;
+}
+
+.search-div{
+    display: flex ;
+    align-items: center ;
+    justify-content: space-around ;
+}
+
+.search-box-div{
+    display: flex ;
+    align-items: center ;
+    background-color: rgb(240,242,245) ;
+    width: 590px ;
+    height: 40px ;
+    border-radius: 35px ;
+    padding-left: 12px ;
+    padding-right: 10px ;
+    cursor: pointer ;
+}
+
+.search-box-div:hover{
+    background-color: rgb(227, 229, 232) ;
+}
+
+.notifications-div{
+    display: flex ;
+    align-items: center ;
+    padding-left: 25px ;
+}
+
+.logo{
+    width: 125px ;
+}
+
+.search-icon{
+    width: 16.5px ;
+}
+
+.search-box{
+    background: none ;
+    border: none ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    margin-left: 8.5px ;
+    width: 550px ;
+    margin-bottom: 2px ;
+}
+
+.search-box:focus{
+    outline: none ;
+}
+
+.notification-icon{
+    width: 20px ;
+}
+
+.notification-icon-div{
+    height: 40px ;
+    width: 40px ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    border: none ;
+    background-color: rgb(228, 230, 235) ;
+    border-radius: 50% ;
+    margin-right: 8px ;
+    position: relative ;
+    padding-left: 0.5px ;
+}
+
+.arrow-down{
+    width: 12.5px ;
+}
+
+.notification-icon-div div p{
+    position: absolute ;
+    color: white ;
+    background-color: rgb(228,30,63) ;
+    font-size: 13px ;
+    font-weight: 500 ;
+    padding: 0.5px 4.5px 0.5px 4.5px ;
+    border-radius: 30px ;
+    top: -6px ;
+    right: -12px ;
+}
+
+.notification-icon1{
+    height: 40px ;
+    width: 40px ;
+    border-radius: 50% ;
+    object-fit: cover ;
+}
+
+.notification-icon-div div button{
+    position: absolute ;
+    border: solid 1px white ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 50% ;
+    bottom: -2px ;
+    right: -2px ; 
+    background-color: rgb(228, 230, 235) ;
+    padding: 0.5px ;
+}
+
+.logo, .notifications-div{
+    cursor: pointer ;
+}
+
+.notification-icon-div:hover{
+    background-color: rgb(215, 217, 222) ;
+}
+
+.tool-tip{
+    background-color: rgb(57,57,58) ;
+    position: absolute ;
+    color: white ;
+    font-size: 12px ;
+    bottom: -41px ;
+    padding: 8px 12px 8px 12px ;
+    border-radius: 8px ;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    opacity: 0 ;
+    pointer-events: none ;
+    white-space: nowrap ;
+}
+
+.notification-icon-div:hover .tool-tip, .notification-icon-div:hover div .tool-tip{
+    opacity: 1 ;
+}
+
+.notification-icon-div div{
+    display: flex ;
+    justify-content: center ;
+}
+
+@media (max-width: 1006px ){
+    .search-div{
+        display: flex ;
+        align-items: center ;
+        justify-content: space-around ;
+        padding-left: 78px ;
+    }
+}
+
+@media (max-width: 899px ){
+    .search-div{
+        display: flex ;
+        align-items: center ;
+        justify-content: left ;
+        padding-left: 44px ;
+    }
+
+    .search-icon{
+        width: 16px ;
+    }
+
+    .search-box-div{
+        width: 40px ;
+        height: 40px ;
+        display: flex ;
+        align-items: center ;
+        border-radius: 50% ;
+        padding: 0px ;
+        justify-content: center ;
+        padding-left: 8px ;
+    }
+
+    .search-box{
+        background: none ;
+        border: none ;
+        font-size: 15px ;
+        font-weight: 400 ;
+        margin-left: 8px ;
+        width: 0px ;
+    }
+
+    .notifications-div{
+        justify-content: right ;
+        padding-right: 25px ;
+    }
+}

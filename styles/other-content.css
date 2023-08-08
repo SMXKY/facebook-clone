@@ -1,0 +1,341 @@
+.cards{
+    background-color: white ;
+    width: 590px ;
+    margin-left: 141px ;
+    border-radius: 10px ;
+    margin-top: 16.5px ;
+    border: none ;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+    padding-top: 4px ;
+    padding-bottom: 10px ;
+}
+
+.all-cards{
+    padding-left: 14px ;
+}
+
+.cards-header{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    font-weight: 600 ;
+    color: rgb(101, 103, 107) ;
+    font-size: 17px ;
+    padding-right: 14px ;
+}
+
+.cards-header div{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    height: 40px ;
+    width: 40px ;
+    border-radius: 50% ;
+    cursor: pointer ;
+}
+
+.cards-header div:hover{
+    background-color: rgb(242,242,242) ;
+}
+
+.card-template{
+    display: flex ;
+    flex-direction: column ;
+    background-color: white ;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px ;
+    width: 162px ;
+    cursor: pointer ;
+    margin-right: 10px ;
+    position: relative ;
+}
+
+.card-img{
+    width: 162px ;
+    height: 160.4px ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+.card-name{
+    font-weight: 600 ;
+    font-size: 17px ;
+}
+
+.card-sub{
+    height: 16px ;
+    width: 16px ;
+    border-radius: 50% ;
+    margin-right: 9px ;
+}
+
+.mutual{
+    display: flex ;
+    align-items: center ;
+    font-weight: 400 ;
+    color: rgb(101, 103, 107) ;
+    margin-top: 10px ;
+}
+
+.add-friend{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    height: 36px ;
+    width: 136px ;
+    font-weight: 600 ;
+    background-color: rgb(231,243,255) ;
+    border-radius: 6px ;
+    margin-top: 10px ;
+}
+
+.add-friend:hover{
+    background-color: rgb(219, 231, 242);
+}
+
+.add-friend img{
+    width: 22px ;
+    margin-right: 8px ;
+}
+
+.add-friend p{
+    color: rgb(5,113,237) ;
+}
+
+.card-info{
+    display: flex ;
+    flex-direction: column ;
+    align-items: start ;
+    padding-left: 12px ;
+    padding-right: 12px ;
+    padding-bottom: 10px ;
+}
+
+.the-actual-cards{
+    display: flex ;
+    align-items: center ;
+    margin-top: 12px ;
+    overflow: hidden ;
+    padding-bottom: 10px ;
+    padding-left: 2px ;
+}
+
+.card-name:hover{
+    text-decoration: underline ;
+}
+
+.last-img{
+    width: 162px ;
+    height: 160.4px ;
+    position: relative ;
+}
+
+.next2{
+    position: absolute ;
+    background-color: white ;
+    bottom: 0px ;
+    height: 48px ;
+    width: 48px ;
+    border-radius: 50% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.next2:hover, .next3:hover{
+    background-color: rgb(242,242,242) ;
+}
+
+.card-footer{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    font-weight: 500 ;
+    cursor: pointer ;
+    color: rgb(5,113,237) ;
+    padding-top: 6px ;
+    padding-bottom: 6px ;
+    border-radius: 8px ;
+    width: 560px ;
+}
+
+.card-footer:hover{
+    background-color: rgb(242,242,242) ;
+}
+
+.close-again{
+    position: absolute ;
+    background-color: rgba(0, 0, 0, 0.4) ;
+    height: 35px ;
+    width: 35px ;
+    border-radius: 50% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    right: 10px ;
+    top: 10px ;
+}
+
+.close-again:hover{
+    background-color: rgba(0, 0, 0, 0.45) ;
+}
+
+.close-again img{
+    width: 15px ;
+}
+
+@media (max-width: 1390px){
+    .cards{
+        margin-left: 26px ;
+        border-radius: 10px ;
+    }
+}
+
+/* -------------------------------- Watch reels section -------------------------------- */
+
+.watch-reels{
+    background-color: white ;
+    width: 590px ;
+    margin-left: 141px ;
+    border-radius: 10px ;
+    margin-top: 16.5px ;
+    border: none ;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+    padding-top: 4px ;
+    padding-bottom: 10px ;
+}
+
+.watch-reels-header{
+    display: flex ;
+    justify-content: space-between ;
+    padding-left: 12px ;
+    padding-right: 12px ;
+    margin-top: 8px ;
+    align-items: center ;
+}
+
+.left-head-reel img{
+    width: 28px ;
+    margin-right: 8px ;
+}
+
+.left-head-reel {
+    display: flex ;
+    align-items: center ;
+    font-weight: 600 ;
+    font-size: 17px ;
+}
+
+.right-head-reel{
+    display: flex ;
+    align-items: center ;
+    color: rgb(5,113,237) ;
+    font-weight: 600 ;
+}
+
+.option-dots{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    height: 35px ;
+    width: 35px ;
+    border-radius: 50% ;
+    cursor: pointer ;
+}
+
+.option-dots:hover, .create-reel:hover{
+    background-color: rgb(242,242,242) ;
+}
+
+.create-reel{
+    border-radius: 8px ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    cursor: pointer ;
+    padding: 6px 12px 6px 12px ;
+    font-size: 15px ;
+    margin-right: 10px ;
+}
+
+.actual-reels{
+    padding-left: 12px ;
+    display: flex ;
+    align-items: center ;
+    overflow: hidden ;
+    margin-top: 12px ;
+}
+
+.reel-template{
+    color: white ;
+    border-radius: 10px ;
+    position: relative ;
+    cursor: pointer ;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08) ;
+    width: 250px ;
+    height: 444.438px ;
+    margin-right: 8px;
+}
+
+.reel-template img{
+    border-radius: 10px ; 
+    width: 250px ;
+    object-fit: cover ;   
+}
+
+.reel-overlay{
+    background-color: rgba(0, 0, 0, 0.1) ;
+    width: 250px ;
+    height: 444.438px ;
+    position: absolute ;
+    top: 0 ;
+    opacity: 0 ;
+    border-radius: 10px ;
+}
+
+.reel-overlay:hover{
+    opacity: 1 ;
+}
+
+.reel-info{
+    position: absolute ;
+    bottom: 12px ;
+    display: flex ;
+    font-weight: 500 ;
+    font-size: 14px ;
+    align-items: center ;
+    left: 12px ;
+}
+
+.reel-info img{
+    width: 12px ;
+    margin-right: 5px ;
+}
+
+.next3{
+    position: absolute ;
+    background-color: white ;
+    bottom: 45% ;
+    height: 48px ;
+    width: 48px ;
+    border-radius: 50% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.next3 img{
+    width: 30px ;
+}
+
+.actual-reels-footer{
+    padding-left: 12px ;
+    margin-top: 10px ;
+}
+
+@media (max-width: 1390px){
+    .watch-reels{
+        margin-left: 26px ;
+        border-radius: 10px ;
+    }
+}

@@ -1,0 +1,24 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, roboto, arial ;
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box ;
+    transition: 0.15s ;
+}
+
+body{
+    background-color: rgb(240,242,245) ;
+    padding-top: 55.5px ;
+    padding-left: 294px ;
+    padding-bottom: 100px;
+}
+
+:root{
+    --card-padding: 0px 12px 0px 12px ; 
+}
+
+@media (max-width: 1377px){
+    body{
+        padding-left: 36px ;
+    }
+}

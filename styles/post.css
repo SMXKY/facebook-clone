@@ -1,0 +1,80 @@
+.post-somethimg{
+    background-color: white ;
+    width: 590px ;
+    margin-left: 141px ;
+    border-radius: 10px ;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+    margin-top: 16.5px ;
+    border: none ;
+    padding: 12px 17px 12px 17px ;
+}
+
+.post-profile-pic{
+    width: 40px ;
+    height: 40px ;
+    border-radius: 50% ;
+    object-fit: cover ;
+    margin-right: 8px ;
+}
+
+.post-text{
+   border: none ; 
+   border-radius: 35px ;
+   background-color: rgb(240,242,245) ;
+   height: 40px ;
+   width: 511px ;
+   font-size: 17px ;
+   font-weight: 450 ;
+   padding-left: 14px ;
+}
+
+.post-text:focus{
+    outline: none ;
+}
+
+.my-post{
+    display: flex ;
+}
+
+.post-division{
+    margin-top: 10px ;
+    border: 0.5px solid rgb(224,226,230);
+    margin-bottom: 10px ;
+}
+
+.post-media{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.media-content{
+    display: flex ;
+    align-items: center ;
+    font-weight: 500 ;
+    color: rgb(110,108,132) ;
+    padding: 8px 0px 8px 0px ;
+}
+
+.media-icon{
+    width: 24px ;
+    margin-right: 8px ;
+}
+
+.media-type{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 8px ;
+    cursor: pointer ;
+}
+
+.media-type:hover{
+    background-color: rgb(242,242,242) ;
+}
+
+@media (max-width: 1390px){
+    .post-somethimg{
+        margin-left: 26px ;
+        border-radius: 10px ;
+    }
+}

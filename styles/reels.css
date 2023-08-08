@@ -1,0 +1,233 @@
+.stories-div{
+    background-color: white ;
+    width: 590px ;
+    margin-left: 141px ;
+    border-radius: 10px ;
+    margin-top: 24.5px ;
+    border: none ;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+    padding: 4px 1px 1px 1px ;
+}
+
+.centeralise{
+    display: flex ;
+    justify-content: center ;
+}
+
+.stories-icon{
+    width: 21px ;
+    margin-right: 8px ;
+}
+
+.top-story-div{
+    display: grid ;
+    grid-template-columns: 280px 280px ;
+    align-items: center ;
+    padding: 1px 1px 1px 1px ;
+    
+}
+
+.second-seperation{
+    border: solid 1px rgb(230,230,230);
+    margin-top: 4px ;
+}
+
+.story, .reals{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 8px ;
+    cursor: pointer ;
+    padding-top: 14px ;
+    padding-bottom: 14px ;
+    position: relative ;
+}
+
+.story p, .reals p{
+    font-weight: 500 ;
+    font-size: 15px ;
+}
+
+.story p{
+    color: rgb(38,121,242) ;
+}
+
+.reals p{
+    color: rgb(101,103,107) ;
+}
+
+.reals:hover{
+    background-color: rgb(242,242,242) ;
+}
+
+.story div{
+    width: 280px ;
+    height: 3px ;
+    border-radius: 5px ;
+    position: absolute ;
+    background-color: rgb(38,121,242) ;
+    bottom: -6px ;
+}
+
+.stories-preview{
+    width: 118px ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    object-fit: cover ;
+    height: 151px ;
+    cursor: pointer ;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)) ;
+}
+
+.overlay{
+    position: absolute ;
+    top: 0px ;
+    left: 0px ;
+    right: 0px ;
+    height: 151px ;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    cursor: pointer ;
+}
+
+.my-story{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+    width: 118px ;
+    border-radius: 10px ;
+    height: 198px ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+    margin-right: 6px ;
+}
+
+.actual-stories{
+    padding-left: 14px ;
+    padding-top: 16px ;
+    padding-bottom: 16px ;
+    display: flex ;
+}
+
+.create-story{
+    position: absolute ;
+    bottom: 6px ;
+    font-weight: 500 ;
+    font-size: 13px ;
+}
+
+.plus-icon{
+    background-color: rgb(38,121,242) ;
+    border-radius: 50% ;
+    height: 42px ;
+    width: 42px ;
+    position: absolute ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    bottom: 24px ;
+    border: 4px solid white;
+    cursor: pointer ;
+}
+
+.add-icon{
+    width: 20px ;
+    cursor: pointer ;
+}
+
+.other-stories{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+    width: 118px ;
+    border-radius: 10px ;
+    height: 198px ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    position: relative ;
+    margin-right: 6px ;
+}
+
+.other-stories-pics{
+    width: 118px ;
+    border-radius: 10px ;
+    object-fit: cover ;
+    height: 198px ;
+    cursor: pointer ;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)) ;
+}
+
+.overlay2{
+    position: absolute ;
+    top: 0px ;
+    left: 0px ;
+    right: 0px ;
+    height: 198px ;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px ;
+    cursor: pointer ;
+}
+
+.create-story2{
+    position: absolute ;
+    bottom: 6px ;
+    font-weight: 500 ;
+    font-size: 13px ;
+    color: white ;
+    width: 100px ;
+}
+
+.story-profile{
+    position: absolute ;
+    width: 48px ;
+    height: 48px ;
+    border-radius: 50% ;
+    border: solid 6px rgb(38,121,242) ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    left: 10px ;
+    top: 10px ;
+}
+
+.story-pic{
+    width: 40px ;
+    height: 40px ;
+    border-radius: 50% ;
+}
+
+.next-icon{
+    width: 30px ;
+    height: 30px ;
+    border-radius: 50% ;
+}
+
+.next{
+    position: absolute ;
+    background-color: white ;
+    width: 45px ;
+    height: 45px ;
+    border-radius: 50% ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    right: 8px ;
+    cursor: pointer ;
+}
+
+.next:hover{
+    background-color: rgb(242,242,242) ;
+}
+
+@media (max-width: 1390px){
+    .stories-div{
+        background-color: white ;
+        width: 590px ;
+        margin-left: 26px ;
+        border-radius: 10px ;
+        margin-top: 24.5px ;
+        border: none ;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+        padding: 4px 1px 1px 1px ;
+    }   
+}
